@@ -1,0 +1,14 @@
+.hero {
+  display: flex;
+  gap: 36px;
+  max-height: 400px;
+  margin-bottom: 80px;
+}
+
+.slider {
+width: 70%;
+}
+
+.banner {
+  width: 30%;
+}
