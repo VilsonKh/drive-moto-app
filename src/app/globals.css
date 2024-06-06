@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --accent-color: #1C62CD;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  color: #333;
+  
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Дополнительные глобальные стили */
+body {
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 15px 0;
+  font-weight: normal;
+}
+
+p {
+  margin: 0 0 15px 0;
+}

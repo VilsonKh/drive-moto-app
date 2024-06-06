@@ -1,0 +1,102 @@
+/* src/styles/Footer.module.css */
+.footer {
+  background-color: #f8f8f8;
+  padding: 43px 0;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.subscribe {
+  flex: 1;
+  margin-right: 20px;
+  max-width: 300px;
+}
+
+.subscribe h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-bottom: 34px;
+  font-weight: bold;
+}
+
+.form {
+  display: flex;
+
+}
+
+.form input {
+  padding: 10px;
+  flex: 1;
+  border: 1px solid #ccc;
+  max-width: 185px;
+}
+
+.form button {
+  padding: 10px 16px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.info {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-right: 20px;
+  gap: 100px;
+}
+
+.info h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info li {
+  margin-bottom: 5px;
+}
+
+.info a {
+  text-decoration: none;
+  color: #333;
+}
+
+.social {
+
+  width: 30%;
+}
+
+.socialContainer {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.bottom a {
+  color: #48494D;
+  font-size: 10px;
+}

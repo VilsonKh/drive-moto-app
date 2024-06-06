@@ -1,0 +1,29 @@
+.swiper {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #f8f8f8;
+}
+
+.slide {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  cursor: pointer;
+  padding: 10px 30px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.slide a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.slide-active {
+  font-weight: bold;
+  color: #000;
+  border-bottom: 2px solid #0056b3;
+}
